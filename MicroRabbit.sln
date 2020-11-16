@@ -12,6 +12,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Ioc", "Infra.Ioc", "{A1BA2E43-6F6C-4421-B8D7-D3FDEB1DDD18}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{EBBBE989-61D7-4F3F-9120-38F8D3025224}"
+	ProjectSection(SolutionItems) = preProject
+		MicroRabbit.Banking.Api\appsettings.Development.json = MicroRabbit.Banking.Api\appsettings.Development.json
+		MicroRabbit.Banking.Api\appsettings.json = MicroRabbit.Banking.Api\appsettings.json
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Domain.Core", "MicroRabbit.Domain.Core\MicroRabbit.Domain.Core.csproj", "{2A9FA90D-9A0F-4C4B-81C3-ECE680449CF8}"
 EndProject
